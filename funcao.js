@@ -1,19 +1,27 @@
 
-
- Numb1 = () =>{
+ 
+ 
+ 
+ 
+ 
+ Calculadora = () =>{
     
     let visor = document.querySelector('#visor-calc')
-    let numb1 = document.querySelector('#numb-1')    
-    let arr = ''
-
-    arr = '1'
-    visor.innerHTML += parseInt(arr) 
+    let discador = document.querySelector('.numb-button')
     
     
-    console.log(visor)
+    switch (discador.value){
+        case '1':
+            visor.innerHTML += 1
+            
+            break
+        case '2':
+            visor.innerHTML += 2
+            
+            break;
+    }
     
-
-    
-
 
 }
+
+
