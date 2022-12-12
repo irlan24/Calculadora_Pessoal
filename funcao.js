@@ -50,7 +50,7 @@
  }
 
 
- Clear = () =>{
+ Clean = () =>{
     visor.innerHTML = null
  }
 
