@@ -50,4 +50,8 @@
  }
 
 
+ Clear = () =>{
+    visor.innerHTML = null
+ }
+
 

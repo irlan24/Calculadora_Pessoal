@@ -78,3 +78,18 @@ section{
     
     
 }
+
+
+.operador{
+    display: flex;
+    gap: 5px;
+
+}
+.op-button{
+    color: red;
+    font-weight: bold;
+    font-size: 24px;
+    height: 40px;
+    width: 45px;
+    padding: 10px;
+}
