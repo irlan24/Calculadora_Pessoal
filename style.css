@@ -56,14 +56,22 @@ section{
 }
 #visor-calc{
     font-family: 'FontCalc';
-    height: 30px;
-    width: 170px;
+    height: 40px;
+    width: 200px;
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #708eb9;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.151);
-    text-align: start;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.151);    
+    overflow-x: auto;
+    overflow-y: hidden;
+
 }
+#visor-calc::-webkit-scrollbar{
+    height: 8px;
+    background-color: #afddec;
+    
+}
+
 
 
 
