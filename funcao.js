@@ -2,7 +2,9 @@
  
  
  let visor = document.querySelector('#visor-calc')
-//  let discador = document.querySelector('.numb-button')
+ 
+
+ // Teclado numeral
  
  
  Calc_numb1 = () =>{
@@ -49,9 +51,31 @@
     visor.innerHTML += parseInt(discador.value)
  }
 
-
+ // zerar contador
+ let armazenar = []
  Clean = () =>{
     visor.innerHTML = null
+    armazenar.length = 0
+
  }
 
+// operadores matematicos
 
+Res = () =>{
+   
+   
+
+   return visor.innerHTML = Soma()
+}
+
+Soma = () =>{
+   
+   let valor = armazenar.push(parseInt(visor.textContent))
+   visor.innerHTML = null 
+   let valorSoma = null 
+   for (i in armazenar){
+      valorSoma += armazenar[i]
+   }
+   console.log(valorSoma) 
+   return valorSoma
+}
